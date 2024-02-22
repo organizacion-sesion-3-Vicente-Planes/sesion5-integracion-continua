@@ -8,12 +8,12 @@ from ejercicios.par import par
 class TestClass:
     def test_par(self):
         # Prueba con un número par
-        self.assert(par(2)) == True
+        assert par(2) == True
         # Prueba con un número impar
-        self.assert(par(3)) == False
+        assert par(3) == False
         # Prueba con cero, que es par
-        self.assert(par(0)) == True
+        assert par(0) == True
         # Prueba con un número negativo par
-        self.assert(par(-4)) == True
+        assert par(-4) == True
         # Prueba con un número negativo impar
-        self.assert(par(-5)) == False
+        assert par(-5) == False
