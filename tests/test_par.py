@@ -5,9 +5,8 @@ import pytest
 from ejercicios.par import par
 
 # Clase para crear tests. Las funciones de testeo deberán crearse en esta clase
-class TestParFunction(unittest.TestCase):
+class TestClass:
     def test_par(self):
-
         # Prueba con un número par
         self.assertTrue(par(2))
         # Prueba con un número impar
